@@ -1,0 +1,31 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 0, 183);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarContainer{
+    width: 65%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 15px;
+}
+.navItem{
+    color: brown;
+    border: 3px solid ;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .3s;
+}
+.navItem:hover{
+    background-color: rgb(255, 255, 255);
+}

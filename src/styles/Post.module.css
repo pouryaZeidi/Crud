@@ -1,0 +1,98 @@
+.postsContainer{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.idItem{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 65px;
+    border:2px solid  ;
+    color: rgba(131, 84, 240, 0.633);
+    border-radius: 50% ;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.titleItem{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0px;
+    color: beige;
+}
+.subjectItem{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-size: 22px;
+    margin: 10px 0px;
+    color: chartreuse;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.219);
+}
+.postDetail{
+    color: azure;
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backbtn{
+    color: burlywood;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    transition: 2s;
+    background-color: blue;
+    cursor: pointer;
+    border: 1px solid;
+}
+.backbtn:hover{
+    background-color: aqua ;
+}
+.postId{
+    color: aqua;
+    border: 1px solid;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.216);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postTittle{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.postUser{
+    color: rgb(0, 0, 0);
+    border: 3px;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    background-color: chartreuse;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postBody{
+    color: rgba(255, 255, 255, 0.315);
+    font-size: 25px;
+
+}
+.postDetailContainer{
+    color: bisque;
+    font-size:45px;
+}

@@ -1,0 +1,88 @@
+.photosContainer{
+    color: white;
+    font-size: 60px;
+}
+.idItem{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    min-width:100px;
+    max-width: 120px;
+    max-height: 130px;
+    min-height: 100px;
+    border:3px solid  ;
+    color: aqua;
+    border-radius: 50% ;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.titleItem{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0px;
+    color: beige;
+}
+.subjectItem{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-size: 22px;
+    margin: 10px 0px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.219);
+    color: coral;
+    
+}
+.backbtn{
+    color: burlywood;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    transition: 2s;
+    background-color: blue;
+    cursor: pointer;
+    border: 1px solid;
+}
+.backbtn:hover{
+    background-color: aqua ;
+}
+.photoId{
+    color: aqua;
+    border: 1px solid;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.216);
+    min-width:100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photoTittle{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.photoUser{
+    color: rgb(0, 0, 0);
+    border: 3px;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    background-color: chartreuse;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photoBody{
+    color: rgba(255, 255, 255, 0.315);
+    font-size: 25px;
+
+}
